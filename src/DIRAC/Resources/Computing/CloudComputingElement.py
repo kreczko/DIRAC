@@ -155,10 +155,9 @@ from libcloud.compute.providers import get_driver
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-from DIRAC import S_OK, S_ERROR, gConfig, rootPath
+from DIRAC import S_OK, S_ERROR, rootPath
 from DIRAC.Resources.Computing.ComputingElement import ComputingElement
 from DIRAC.Core.Security.ProxyInfo import getProxyInfo
-from DIRAC.ConfigurationSystem.Client.Helpers.Registry import getVOForGroup
 from DIRAC.ConfigurationSystem.Client.Helpers.Operations import Operations
 from DIRAC.FrameworkSystem.Client.ProxyManagerClient import ProxyManagerClient
 from DIRAC.FrameworkSystem.Client.ProxyManagerClient import gProxyManager

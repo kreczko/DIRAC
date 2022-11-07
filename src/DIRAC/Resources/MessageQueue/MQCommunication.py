@@ -1,6 +1,6 @@
 """ General Message Queue Interface to create Consumers and Producers
 """
-from DIRAC import gLogger, S_OK
+from DIRAC import S_OK
 from DIRAC.Resources.MessageQueue.MQProducer import MQProducer
 from DIRAC.Resources.MessageQueue.MQConsumer import MQConsumer
 from DIRAC.Resources.MessageQueue.MQConnectionManager import MQConnectionManager

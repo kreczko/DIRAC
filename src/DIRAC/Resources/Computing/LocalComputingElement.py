@@ -46,7 +46,6 @@ import errno
 from urllib.parse import urlparse
 
 from DIRAC import S_OK, S_ERROR
-from DIRAC import gConfig
 
 from DIRAC.Resources.Computing.ComputingElement import ComputingElement
 from DIRAC.Resources.Computing.PilotBundle import bundleProxy, writeScript

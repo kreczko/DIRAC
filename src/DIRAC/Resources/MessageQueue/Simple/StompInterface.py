@@ -1,11 +1,10 @@
-import json
 import os
 import socket
 import hashlib
 import random
 import stomp
 
-from typing import Optional, Type
+from typing import Optional
 
 from DIRAC import gConfig
 from DIRAC.Core.Utilities.ReturnValues import convertToReturnValue, returnValueOrRaise

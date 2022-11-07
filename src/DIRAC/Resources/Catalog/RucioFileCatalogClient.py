@@ -5,7 +5,6 @@ import uuid
 import datetime
 from copy import deepcopy
 
-import DIRAC
 from DIRAC import S_OK, S_ERROR, gLogger
 from DIRAC.Core.Security import Locations
 from DIRAC.Resources.Catalog.Utilities import checkCatalogArguments
@@ -20,7 +19,7 @@ from rucio.common.exception import (
     CannotAuthenticate,
     MissingClientParameter,
 )
-from rucio.common.utils import chunks, extract_scope
+from rucio.common.utils import extract_scope
 
 sLog = gLogger.getSubLogger(__name__)
 

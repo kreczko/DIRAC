@@ -60,7 +60,6 @@ from DIRAC.Core.Utilities.List import breakListIntoChunks
 from DIRAC.WorkloadManagementSystem.Client import PilotStatus
 from DIRAC.WorkloadManagementSystem.Client.PilotManagerClient import PilotManagerClient
 from DIRAC.Core.Utilities.File import makeGuid
-from DIRAC.Core.Utilities.Subprocess import Subprocess
 
 from DIRAC.Resources.Computing.BatchSystems.Condor import parseCondorStatus, treatCondorHistory
 

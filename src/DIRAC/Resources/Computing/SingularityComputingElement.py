@@ -11,7 +11,6 @@
     See the Configuration/Resources/Computing documention for details on
     where to set the option parameters.
 """
-import io
 import json
 import os
 import shutil
