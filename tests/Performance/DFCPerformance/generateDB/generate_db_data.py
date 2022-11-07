@@ -8,7 +8,6 @@
 """
 
 
-import os
 import random
 import config  # pylint: disable=import-error
 
