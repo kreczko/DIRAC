@@ -1,6 +1,6 @@
 from socket import socket, AF_INET, SOCK_DGRAM
 import struct
-import time as time
+import time
 import datetime
 from DIRAC import S_OK, S_ERROR
 
