@@ -109,8 +109,6 @@ class OptimizationMindHandler(ExecutorMindHandler):
     @classmethod
     def initializeHandler(cls, serviceInfoDict):
         try:
-            from DIRAC.WorkloadManagementSystem.DB.JobDB import JobDB
-
             cls.__jobDB = JobDB()
         except Exception as excp:
             return S_ERROR("Could not connect to JobDB: %s" % str(excp))
