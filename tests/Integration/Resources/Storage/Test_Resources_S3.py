@@ -37,8 +37,6 @@ import DIRAC
 
 DIRAC.initialize()  # Initialize configuration
 
-import random
-
 from DIRAC.Core.Utilities.Adler import fileAdler
 from DIRAC.Core.Utilities.File import getSize
 from DIRAC.Resources.Storage.StorageElement import StorageElement
