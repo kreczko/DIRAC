@@ -29,16 +29,13 @@
         python -m pytest -c ../pytest.ini  -vv tests/Integration/WorkloadManagementSystem/Test_SandboxStoreClient.py
 """
 
-from diraccfg import CFG
-
 import DIRAC
 
 DIRAC.initialize()  # Initialize configuration
 
-from DIRAC import gConfig, gLogger
+from DIRAC import gLogger
 from DIRAC.tests.Utilities.utils import find_all
 from DIRAC.WorkloadManagementSystem.Client.SandboxStoreClient import SandboxStoreClient
-from DIRAC.WorkloadManagementSystem.DB.SandboxMetadataDB import SandboxMetadataDB
 
 # cfg = CFG()
 # cfg.loadFromBuffer(
