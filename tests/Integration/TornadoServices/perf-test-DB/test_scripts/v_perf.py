@@ -5,10 +5,7 @@
 """
 
 from DIRAC.Core.Tornado.Client.ClientSelector import RPCClientSelector
-from time import time
 from random import random
-import sys
-import os
 
 
 class Transaction:
