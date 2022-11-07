@@ -19,7 +19,6 @@ import DIRAC
 
 DIRAC.initialize()  # Initialize configuration
 
-import DIRAC
 from DIRAC import gLogger, gConfig, S_OK, S_ERROR
 from DIRAC.Core.Security.X509Chain import X509Chain  # pylint: disable=import-error
 from DIRAC.FrameworkSystem.DB.ProxyDB import ProxyDB
