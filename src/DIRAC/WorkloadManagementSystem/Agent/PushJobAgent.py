@@ -10,14 +10,12 @@
 """
 
 import sys
-import re
 import random
 from collections import defaultdict
 
 from DIRAC import S_OK, S_ERROR, gConfig
 from DIRAC.Core.Utilities.ObjectLoader import ObjectLoader
 from DIRAC.Core.Utilities import DErrno
-from DIRAC.ConfigurationSystem.Client.PathFinder import getSystemInstance
 from DIRAC.ConfigurationSystem.Client.Helpers.Operations import Operations
 from DIRAC.FrameworkSystem.Client.ProxyManagerClient import gProxyManager
 from DIRAC.WorkloadManagementSystem.Client.JobReport import JobReport

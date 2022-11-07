@@ -4,10 +4,8 @@ import os
 import sys
 import json
 
-from DIRAC import gLogger, S_OK, S_ERROR
+from DIRAC import gLogger, S_OK
 from DIRAC.Core.Utilities.File import mkDir
-from DIRAC.ConfigurationSystem.Client.Helpers import Registry
-from DIRAC.FrameworkSystem.Client.ProxyManagerClient import gProxyManager
 
 
 def createJobWrapper(

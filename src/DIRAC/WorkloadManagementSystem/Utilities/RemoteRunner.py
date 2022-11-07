@@ -7,7 +7,6 @@ RemoteRunner has been designed to send script/application on remote worker nodes
 (e.g. supercomputers)
 """
 import os
-import shlex
 import time
 
 from DIRAC import gLogger, gConfig, S_OK
