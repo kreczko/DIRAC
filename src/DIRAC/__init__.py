@@ -131,7 +131,6 @@ def _computeRootPath(rootPath):
     :param str rootPath:
     :return: The DIRAC rootPath, accounting for server-style installations.
     """
-    import re
     from pathlib import Path  # pylint: disable=import-error
 
     rootPath = Path(rootPath).resolve()
