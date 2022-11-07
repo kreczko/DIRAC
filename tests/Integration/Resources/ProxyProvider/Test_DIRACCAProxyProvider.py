@@ -1,7 +1,6 @@
 """ Tests for ProxyProvider modules module
 """
 import os
-import sys
 import pytest
 
 from diraccfg import CFG

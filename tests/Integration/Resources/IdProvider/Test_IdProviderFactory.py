@@ -2,7 +2,6 @@ import time
 
 from diraccfg import CFG
 
-import DIRAC
 from DIRAC import gConfig
 
 cfg = CFG()

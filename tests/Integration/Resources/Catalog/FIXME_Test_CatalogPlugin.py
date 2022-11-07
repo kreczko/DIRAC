@@ -11,7 +11,7 @@ from DIRAC.Resources.Catalog.FileCatalog import FileCatalog
 from DIRAC.Core.Utilities.File import makeGuid
 from DIRAC.Core.Utilities.Adler import stringAdler
 from types import *
-import unittest, time, sys
+import unittest, sys
 
 if len(sys.argv) < 2:
     print("Usage: TestCatalogPlugIn.py CatalogClient")
