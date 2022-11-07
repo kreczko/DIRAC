@@ -124,7 +124,6 @@ Script.parseCommandLine(ignoreErrors=True)
 from DIRAC.Resources.Catalog.FileCatalog import FileCatalog
 from DIRAC.Core.Utilities.ProcessPool import ProcessPool
 
-from DIRAC import S_OK
 import time
 
 fc = FileCatalog(catalogs=[catalog])
