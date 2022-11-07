@@ -10,12 +10,6 @@ DIRAC.initialize()  # Initialize configuration
 from pytest import fixture
 
 from DIRAC.RequestManagementSystem.DB.RequestDB import RequestDB
-from DIRAC.RequestManagementSystem.DB.test.RMSTestScenari import (
-    test_dirty,
-    test_scheduled,
-    test_stress,
-    test_stressBulk,
-)
 
 
 @fixture(scope="function")
