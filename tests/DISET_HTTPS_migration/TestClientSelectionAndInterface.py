@@ -15,7 +15,6 @@
     You don't need to setup anything, just run ``pytest TestClientSelection.py`` !
 """
 import os
-import re
 
 
 from pytest import mark, fixture
@@ -26,7 +25,6 @@ from DIRAC.Core.DISET.RPCClient import RPCClient
 from DIRAC.ConfigurationSystem.private.ConfigurationClient import ConfigurationClient
 from DIRAC.ConfigurationSystem.Client.ConfigurationData import gConfigurationData
 from diraccfg import CFG
-from DIRAC.Core.Base.Client import Client
 from DIRAC.Core.DISET.private.InnerRPCClient import InnerRPCClient
 
 parametrize = mark.parametrize
